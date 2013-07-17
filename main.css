@@ -1,0 +1,37 @@
+body html{
+width:100%;
+}
+body{
+background-color:grey;
+}
+
+#container{
+	height:100%;
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+#header{
+margin-top:-8px;
+margin-bottom:100px;
+}
+#menu{
+
+}
+
+#menu ul{
+list-style-type: none;
+}
+#menu li{
+background-color:green;
+margin:10px;
+float:left;
+padding:20px;
+}
+#footer{
+width:100%;
+background-color:darkgrey;
+position:absolute;
+bottom:0px;
+left:0px;
+}
