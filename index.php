@@ -11,15 +11,14 @@ var screenWidth = window.screen.width;
 	<div id="header">
 		<img src="http://placehold.it/350x150&text=FYP"/>
 	</div>
-	<div id="menu">
-		<ul>
-			<li>Item One</li>
-				<li>Item One</li>
-<li>Item One</li>
-			<li>Item Two</li>
-		</ul>
-		<div style="clear:both;"></div>
-	</div>
+	<?php
+	if(file_exists("config/config.php")){
+	include 'theme/default/modules.php';
+	}
+	else{
+	include 'theme/default/setup.php';
+	}
+	?>
 	<div id="footer">
 	Footer Text Here
 	</div>
