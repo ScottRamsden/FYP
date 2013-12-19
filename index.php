@@ -1,3 +1,13 @@
+<?php
+	if(file_exists("config/config.php")){
+	// Include Setup Variables
+	include 'config/variables.php';
+	}
+	else{
+	// Include Default Variables
+	include 'config/default.variables.php';
+}
+?>
 <html>
 	<head>
 		<title>FYP - <?php echo $companyName;?></title>
@@ -11,16 +21,20 @@ var screenWidth = window.screen.width;
 	<div id="header">
 		<img src="http://placehold.it/350x150&text=FYP"/>
 	</div>
+	<div id="page">
 	<?php
 	if(file_exists("config/config.php")){
+	// Include Modules Content
 	include 'theme/default/modules.php';
 	}
 	else{
+	// Include Setup Process
 	include 'theme/default/setup.php';
 	}
 	?>
+	</div>
 	<div id="footer">
-	Footer Text Here
+	<?php echo $footer;?>
 	</div>
 </div> 
 </body>
