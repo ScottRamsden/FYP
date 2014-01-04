@@ -10,6 +10,9 @@ array(
 ?>
 
 <script src="theme/default/setup/setup.js"></script>
+
+Restart Setup Process
+
 <div id="setup">
 
 
