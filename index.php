@@ -23,6 +23,11 @@ var screenWidth = window.screen.width;
 	<div id="header">
 		<img src="http://placehold.it/350x150&text=FYP"/>
 	</div>
+	<?php
+	if(file_exists("config/config.php")){
+	include 'theme/default/menu.php';
+	}
+	?>
 	<div id="page">
 	<?php
 	if(file_exists("config/config.php")){
@@ -35,6 +40,11 @@ var screenWidth = window.screen.width;
 	}
 	?>
 	</div>
+	<?php
+	if(file_exists("config/config.php")){
+	include 'theme/default/status.php';
+	}
+	?>
 	<div id="footer">
 	<?php echo $footer;?>
 	</div>

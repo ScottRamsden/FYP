@@ -1,3 +1,19 @@
+<?php
+if($_GET['setupfinished'] == 1){
+
+$configFile = "config/config.php";
+$createConfFile = fopen($configFile, 'w') or die('Please Contact scott@scottramsden.co.uk');
+
+$variablesFile = "config/variables.php";
+$createVarFile = fopen($variablesFile, 'w') or die('');
+
+echo '<p id="setupfinished">Setting up FYP</p>';
+
+header('Location: '.$_SERVER['PHP_SELF']);
+
+exit;
+}
+?>
 
 <?php
 $modules =
@@ -15,7 +31,7 @@ array(
 
 <div id="setup">
 
-<form action="runsetup.php" method"post">
+<form action="?setupfinished=1" method="post">
 
 <div id="start">
 <h2>Setup Process</h2>
@@ -45,13 +61,20 @@ Press the button to go to step 1
 
 <div id="step2">
 <h2>Step 2</h2>
-<h4>Step 2</h4>
+<h4>Accept the Terms and Conditions</h4>
+
+<input type="checkbox" name="terms" value="0">I Accept the <a href="#">Terms and Conditions</a><br>
 
 <br/>
-<div id="nextstep" class="two">
+<div id="nextstep" class="finish">
 >
 </div>
 </div>
+
+<div id="setupfinish">
+<h2>Setup Finalize</h2>
+
+<input type="submit" value="Complete Setup">
 
 </form>
 

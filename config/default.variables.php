@@ -6,5 +6,5 @@
 // If re run the setup process.
 
 $companyName = 'For Your Protection';
-$footer = 'For Your Protection - Pre-Setup';
+$footer = 'For Your Protection - Setup';
 ?>
