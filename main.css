@@ -5,19 +5,6 @@ body{
 background-color:grey;
 font-family:Courier New;
 }
-h4{
-	background-color:#333;
-	padding:10px;
-	color:lightgrey;
-	font-size:18px;
-	border-bottom:solid 1px #ccc;
-}
-h2{
-text-align:left;
-background-color:#333;
-padding:5px;
-color:white;
-}
 #container{
 	height:100%;
 	width:800px;
@@ -26,7 +13,7 @@ color:white;
 }
 #header{
 margin-top:-8px;
-margin-bottom:100px;
+margin-bottom:50px;
 background-color:lightgrey;
 width:100%;
 }
@@ -76,9 +63,6 @@ input{
 #nextstep .next{
 background-color:#444;
 border:solid 1px grey;
-color:white;
-}
-p{
 color:white;
 }
 #restartsetup{

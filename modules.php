@@ -34,7 +34,7 @@ var screenWidth = window.screen.width;
 	<?php
 	if(file_exists("config/config.php")){
 	// Include Modules Content
-	include 'theme/default/modules.php';
+	include 'theme/default/moduleSetup.php';
 	}
 	else{
 	// Include Setup Process
@@ -42,11 +42,6 @@ var screenWidth = window.screen.width;
 	}
 	?>
 	</div>
-	<?php
-	if(file_exists("config/config.php")){
-	include 'theme/default/status.php';
-	}
-	?>
 	<div id="footer">
 	<?php echo $footer;?>
 	</div>
