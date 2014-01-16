@@ -1,8 +1,8 @@
 <?php
 
-$notice = 14;
-$warning = 2;
-$fatal = 1;
+$notice = getNoticeCount();
+$warning = getWarningCount();
+$fatal = getFatalCount();
 
 
 $total = $notice + $warning + $fatal;

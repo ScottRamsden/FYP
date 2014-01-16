@@ -1,5 +1,8 @@
 <?php
 
+
+include 'config/config.php';
+
 $modules = array
   (
   array(
@@ -10,7 +13,7 @@ $modules = array
   array(
 "name" => "Snort IDS",
 "status" => 1,
-"key" => "apache2"
+"key" => "snort"
 	),
   array(
 "name" => "OpenVAS",
@@ -23,8 +26,9 @@ $modules = array
 "key" => "nikko"
 	),
   array(
-"name" => "Volvo",
-"status" => 1
+"name" => "Web Server",
+"status" => 1,
+"key" => "apache2"
 	),
   array(
 "name" => "Volvasdo",

@@ -3,15 +3,20 @@
 <?php
 
 foreach($modules as $service){
-exec("pgrep " . strtolower($service['key']), $pids);
-if(!empty($pids) && !empty($service['key'])) {
+exec("pgrep " . strtolower($service['key']), $pids,$running);
 
-    	// snort is running!
-        echo '<button type="button" class="btn btn-success">' . $service['name'] .' is running</button></br></br>';
+if($running == 0) {
+
+        echo '<button type="button" class="btn btn-success" style="margin:5px;">' . $service['name'] .' is running</button>';
 }
-elseif(empty($pids) && !empty($service['key'])){
-$allServicesOnline = 1;
-        echo '<button type="button" class="btn btn-warning">' . $service['name'] .' is not running</button></br></br>';
+else{
+
+	$count = $count + 1;
+
+        echo '<button type="button" class="btn btn-danger" style="margin:5px;">' . $service['name'] .' is not running</button>';
 }
 }
+
+$_SESSION['fatalCount'] = $count;
+
 ?>

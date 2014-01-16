@@ -23,7 +23,7 @@ var screenWidth = window.screen.width;
 </script>
 <div id="container">
 	<div id="header">
-		<img src="http://placehold.it/350x150&text=FYP"/>
+		<img src="http://scottramsden.co.uk/fyp/header.png"/>
 	</div>
 	<?php
 	if(file_exists("config/config.php")){
