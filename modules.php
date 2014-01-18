@@ -33,9 +33,16 @@ var screenWidth = window.screen.width;
 	<div id="page">
 	<?php
 	if(file_exists("config/config.php")){
-	// Include Modules Content
-	include 'theme/default/moduleSetup.php';
-	}
+        if(isset($_GET['module'])){
+            // Include Module Specific Content
+            include 'theme/default/module/apache2.php';
+        }
+        else{
+            // Include Modules Content
+            include 'theme/default/moduleSetup.php';
+        }
+
+    }
 	else{
 	// Include Setup Process
 	include 'theme/default/setup.php';
