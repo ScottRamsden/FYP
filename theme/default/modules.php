@@ -7,13 +7,13 @@ exec("pgrep " . strtolower($service['key']), $pids,$running);
 
 if($running == 0) {
 
-        echo '<button type="button" class="btn btn-success" style="margin:5px;">' . $service['name'] .' is running</button>';
+        echo '<a href="/modules.php?module=' . $service['key'] .'"><button type="button" class="btn btn-success" style="margin:5px;">' . $service['name'] .' is running</button></a>';
 }
 else{
 
 	$count = $count + 1;
 
-        echo '<button type="button" class="btn btn-danger" style="margin:5px;">' . $service['name'] .' is not running</button>';
+        echo '<a href="/modules.php"><button type="button" class="btn btn-danger" style="margin:5px;">' . $service['name'] .' is not running</button></a>';
 }
 }
 

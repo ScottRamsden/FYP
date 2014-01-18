@@ -7,36 +7,28 @@ $modules = array
   (
   array(
 "name" => "Nessus Scanner",
-"status" => 1,
+"status" => true,
 "key" => "nessus"
 	),
   array(
 "name" => "Snort IDS",
-"status" => 1,
+"status" => true,
 "key" => "snort"
 	),
   array(
 "name" => "OpenVAS",
-"status" => 1,
+"status" => false,
 "key" => "openvas"
 	),
   array(
 "name" => "Wikki",
-"status" => 1,
+"status" => false,
 "key" => "nikko"
 	),
   array(
 "name" => "Web Server",
-"status" => 1,
+"status" => true,
 "key" => "apache2"
-	),
-  array(
-"name" => "Volvasdo",
-"status" => 2
-	),
-  array(
-"name" => "Vosalvo",
-"status" => 2
 	),
   );
 
