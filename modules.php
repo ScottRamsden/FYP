@@ -35,7 +35,7 @@ var screenWidth = window.screen.width;
 	if(file_exists("config/config.php")){
         if(isset($_GET['module'])){
             // Include Module Specific Content
-            include 'theme/default/module/apache2.php';
+            include 'theme/default/module/' . $_GET['module'] . '.php';
         }
         else{
             // Include Modules Content
