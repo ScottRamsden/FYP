@@ -34,21 +34,11 @@ var screenWidth = window.screen.width;
 	<?php
 	if(file_exists("config/config.php")){
 	// Include Modules Content
-	include 'theme/default/modules.php';
+	include 'theme/default/configuration.php';
 	}
 	else{
 	// Include Setup Process
 	include 'theme/default/setup.php';
-	}
-	?>
-	<?php
-	if(file_exists("config/config.php")){
-	include 'theme/default/power.php';
-	}
-	?>
-	<?php
-	if(file_exists("config/config.php")){
-	include 'theme/default/status.php';
 	}
 	?>
 	</div>
