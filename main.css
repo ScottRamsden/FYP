@@ -2,13 +2,19 @@ body html{
 width:100%;
 }
 body{
-background-color:grey;
+background-color:#eee !important;
 font-family:Courier New;
+}
+hr{
+border-top:3px solid #ddd !important;
+margin-top:10px !important;
 }
 #container{
 	height:100%;
 	width:800px;
 	margin:auto;
+	padding:20px;
+	background-color:white !important;
 }
 #header{
 margin-top:-8px;
