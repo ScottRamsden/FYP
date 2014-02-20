@@ -21,6 +21,10 @@ if ($_POST['submitted']) {
 <br/>
 <div id="config-form" class="">
 
+	<a href="#"><p>Get/Update Account Data</p></a>
+
+	<br/>
+
     <h4>Your Account</h4>
 
     <pre><b>ID : </b><?php echo $currentID; ?></pre>
