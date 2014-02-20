@@ -1,51 +1,45 @@
-#navcontainer
-{
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 40px;
-border-top: 1px solid #999;
-z-index: 1;
+#navcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-top: 1px solid #999;
+    z-index: 1;
 }
 
-#navcontainer ul
-{
-list-style-type: none;
-text-align: center;
-margin-top: -8px;
-padding: 0;
-position: relative;
-z-index: 2;
+#navcontainer ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: -8px;
+    padding: 0;
+    position: relative;
+    z-index: 2;
 }
 
-#navcontainer li
-{
-display: inline;
-text-align: center;
-margin: 0 5px;
+#navcontainer li {
+    display: inline;
+    text-align: center;
+    margin: 0 5px;
 }
 
-#navcontainer li a
-{
-padding: 1px 7px;
-color: #666;
-background-color: #fff;
-border: 1px solid #ccc;
-text-decoration: none;
+#navcontainer li a {
+    padding: 1px 7px;
+    color: #666;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-decoration: none;
 }
 
-#navcontainer li a:hover
-{
-color: #000;
-border: 1px solid #666;
-border-top: 2px solid #666;
-border-bottom: 2px solid #666;
+#navcontainer li a:hover {
+    color: #000;
+    border: 1px solid #666;
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
 }
 
-#navcontainer li a#current
-{
-color: #000;
-border: 1px solid #666;
-border-top: 2px solid #666;
-border-bottom: 2px solid #666;
+#navcontainer li a#current {
+    color: #000;
+    border: 1px solid #666;
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
 }
 

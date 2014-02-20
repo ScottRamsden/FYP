@@ -1,7 +1,8 @@
 <?php
 session_start();
 
-function apiInit($call = null,$user = null,$password = null){
+function apiInit($call = null, $user = null, $password = null)
+{
 
     if ($call == null) {
         throw new Exception('Tried to make a call without setting $call variable');
@@ -33,12 +34,13 @@ function apiInit($call = null,$user = null,$password = null){
     }
 }
 
-function getNewKey($user,$password){
+function getNewKey($user, $password)
+{
 
     $url = $apiHost . '/getkey/' . $user . '/' . $password;
 
     // is cURL installed yet?
-    if (!function_exists('curl_init')){
+    if (!function_exists('curl_init')) {
         die('Sorry cURL is not installed!');
     }
 
@@ -60,11 +62,13 @@ function getNewKey($user,$password){
     return $output;
 }
 
-function checkApiKey() {
+function checkApiKey()
+{
 
     return true;
 }
 
-function makeApiCall() {
+function makeApiCall()
+{
 
 }

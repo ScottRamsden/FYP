@@ -1,19 +1,19 @@
-.statistics{
-float:left;
-width:190px;
+.statistics {
+    float: left;
+    width: 190px;
 }
 
-#total{
+#total {
 }
 
-#notice{
-
-}
-
-#warning{
+#notice {
 
 }
 
-#fatal{
+#warning {
+
+}
+
+#fatal {
 
 }

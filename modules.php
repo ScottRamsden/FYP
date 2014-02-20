@@ -1,57 +1,54 @@
 <?php
-	if(file_exists("config/config.php")){
-	// Include Setup Variables
-	include 'config/variables.php';
-	}
-	else{
-	// Include Default Variables
-	include 'config/default.variables.php';
+if (file_exists("config/config.php")) {
+    // Include Setup Variables
+    include 'config/variables.php';
+} else {
+    // Include Default Variables
+    include 'config/default.variables.php';
 }
 ?>
 <html>
-	<head>
-		<title>FYP - <?php echo $companyName;?></title>
-		<link rel="stylesheet" type="text/css" href="main.css">
+<head>
+    <title>FYP - <?php echo $companyName; ?></title>
+    <link rel="stylesheet" type="text/css" href="main.css">
 
-		<?php include 'theme/default/head.php';?>
+    <?php include 'theme/default/head.php'; ?>
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	</head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
 <body>
 <script>
-var screenWidth = window.screen.width;
+    var screenWidth = window.screen.width;
 </script>
 <div id="container">
-	<div id="header">
-		<img src="http://scottramsden.co.uk/fyp/header.png"/>
-	</div>
-	<?php
-	if(file_exists("config/config.php")){
-	include 'theme/default/menu.php';
-	}
-	?>
-	<div id="page">
-	<?php
-	if(file_exists("config/config.php")){
-        if(isset($_GET['module'])){
-            // Include Module Specific Content
-            include 'theme/default/module/' . $_GET['module'] . '.php';
-        }
-        else{
-            // Include Modules Content
-            include 'theme/default/moduleSetup.php';
-        }
-
+    <div id="header">
+        <img src="http://scottramsden.co.uk/fyp/header.png"/>
+    </div>
+    <?php
+    if (file_exists("config/config.php")) {
+        include 'theme/default/menu.php';
     }
-	else{
-	// Include Setup Process
-	include 'theme/default/setup.php';
-	}
-	?>
-	</div>
-	<div id="footer">
-	<?php echo $footer;?>
-	</div>
-</div> 
+    ?>
+    <div id="page">
+        <?php
+        if (file_exists("config/config.php")) {
+            if (isset($_GET['module'])) {
+                // Include Module Specific Content
+                include 'theme/default/module/' . $_GET['module'] . '.php';
+            } else {
+                // Include Modules Content
+                include 'theme/default/moduleSetup.php';
+            }
+
+        } else {
+            // Include Setup Process
+            include 'theme/default/setup.php';
+        }
+        ?>
+    </div>
+    <div id="footer">
+        <?php echo $footer; ?>
+    </div>
+</div>
 </body>
 </html>
