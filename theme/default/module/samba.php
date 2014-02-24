@@ -24,18 +24,5 @@ foreach ($modules as $module) {
 
 ?>
 
-<h2>Service Viewer - <?php echo $_GET['module']; ?></h2>
-<hr/>
-
 <h3><?php echo $status; ?></h3>
-<br/>
-<h3>Log Viewer</h3>
-<pre>
-<?php
-$file = fopen("/var/log/apache2/error.log", "r") or exit("Unable to open file!");
-//Output a line of the file until the end is reached
-while (!feof($file)) {
-    echo fgets($file) . "<br>";
-}
-fclose($file);
-?></pre>
+<hr/>
