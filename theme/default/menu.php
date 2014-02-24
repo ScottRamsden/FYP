@@ -2,6 +2,7 @@
 $items = array(
     "Modules",
     "Configuration",
+    "Documentation",
 );?>
 <div id="navcontainer">
     <ul id="navlist">

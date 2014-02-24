@@ -1,5 +1,7 @@
 <?php
 
+$currentID = API_ID;
+
 // Form Submitted
 if ($_POST['submitted']) {
     $update = 1;

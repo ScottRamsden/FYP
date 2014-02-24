@@ -36,7 +36,7 @@ function apiInit($call = null, $user = null, $password = null)
 
 function getNewKey($user, $password)
 {
-
+    $apiHost = API_HOST;
     $url = $apiHost . '/getkey/' . $user . '/' . $password;
 
     // is cURL installed yet?
