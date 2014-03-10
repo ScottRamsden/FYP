@@ -23,13 +23,16 @@ if ($_POST['submitted']) {
 <br/>
 <div id="config-form" class="">
 
-	<a href="#"><p>Get/Update Account Data</p></a>
+	<a href="/update.php"><p>Get/Update Account Data</p></a>
 
 	<br/>
 
     <h4>Your Account</h4>
 
-    <pre><b>ID : </b><?php echo $currentID; ?></pre>
+<pre>
+<p><b>ID : </b><?php echo $currentID; ?></p>
+<p><b>Username : </b><?php echo $username;?></p>
+</pre>
 
     </br>
     <form action="" method="post" class="form-horizontal" role="form">

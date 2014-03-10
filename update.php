@@ -32,8 +32,8 @@ if (file_exists("config/config.php")) {
     <div id="page">
         <?php
         if (file_exists("config/config.php")) {
-            // Include documentation file
-	   include 'theme/default/documentation/start.php';
+            // Include Modules Content
+            include 'theme/default/update.php';
         } else {
             // Include Setup Process
             include 'theme/default/setup.php';

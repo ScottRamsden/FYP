@@ -24,7 +24,7 @@ foreach ($modules as $module) {
 
 ?>
 
-<h2>Intrusion Detection System - <?php echo $_GET['module']; ?></h2>
+<h2>File Server - <?php echo $_GET['module']; ?></h2>
 <hr/>
 <br/>
 <h3>Configuration</h3>
@@ -32,15 +32,3 @@ foreach ($modules as $module) {
 
 </pre>
 <br/>
-<h3>Alert Viewer</h3>
-<pre>
-<?php
-$errors = file_get_contents('/var/www/snort.log');
-if($errors == ''){
-echo 'Lucky you, there were no alerts!';
-}
-else{
-echo $errors;
-}
-?></pre>
-
