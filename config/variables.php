@@ -45,6 +45,8 @@ foreach ($disabledLines as $dline) {
 
 const API_ID = 1;
 
+const USERNAME = 'scottramsdenold';
+
 const API_HOST = '81.19.211.103';
 $companyName = 'ScottRamsden.co.uk';
 $footer = 'For your protection - Scott Ramsden - <u>Development Account</u>';

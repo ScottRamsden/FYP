@@ -9,9 +9,13 @@
 ?>
 
 <h3>Shell In A Box</h3>
-<span>Web based AJAX terminal emulator</span>
 <hr/>
-<a target="_blank" id="trans">Load a shell in a new window</a>
+</br>
+<div style="margin:auto;width:315px;text-align:center;">
+<span>Web based AJAX terminal emulator</span>
+<br/>
+<a target="_blank" id="trans">Start a shell window</a>
+</div>
 <script>
     document.getElementById('trans').href = '' + window.location.origin + ':4200';
 </script>

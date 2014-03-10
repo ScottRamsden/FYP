@@ -10,9 +10,16 @@
 
 <h3>OpenVAS - GreenBone Security Admin</h3>
 <hr/>
-<div style="margin:auto;width:300px;">
-<a target="_blank" id="trans">Open GreenBone Security Admin</a>
-<img src="theme\default\images\gsa_splash.png"/>
+<br/>
+<br/>
+<div style="text-align:center;margin:auto;width:315px;">
+<img src="theme\default\images\gsad_header.png"/>
+</div>
+<div style="text-align:center;margin:auto;width:315px;border-left:3px solid lightgrey;border-right:solid 3px lightgrey;">
+<br/><br/>
+<a style="color:green;" target="_blank" id="trans">Open GreenBone Security Admin</a>
+<br/><br/>
+<hr/>
 </div>
 <script>
     document.getElementById('trans').href = '' + window.location.origin + ':9392';
