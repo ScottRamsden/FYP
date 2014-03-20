@@ -47,7 +47,7 @@ const API_ID = 1;
 
 const USERNAME = 'scottramsdenold';
 
-const API_HOST = '81.19.211.103';
+const API_HOST = 'runforthe33.co.uk';
 $companyName = 'ScottRamsden.co.uk';
 $footer = 'For your protection - Scott Ramsden - <u>Development Account</u>';
 
