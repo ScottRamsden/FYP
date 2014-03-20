@@ -1,12 +1,35 @@
 <?php if($_POST['submitted']):?>
-// Make curl request
+
+<?php
+
+$username = $_POST['username'];
+$password = $_POST['password'];
+
+$curlResponse = curlRequest('getuser',$username,$password);
+
+die($curlResponse);
+?>
+
 // If new key required
+<?php if($curlResponse != $validResponse){
+$error = 'aaa';
+}
+?>
+
 // Request new key with details
 // Make getuser request again
 // If valid data
 // Parse data into vars
 // Push vars into the variables.php config
+
 <?php else:?>
+
+<?php if(!empty($error)){
+
+die('There was an error [' .$error. ']');
+
+}?>
+
 <h3>Current Account Info</h3>
 <hr/>
 <pre>
@@ -23,4 +46,5 @@ Password: <input type="password" name="password">
 </form>
 <br/>
 <hr/>
+
 <?php endif;?>

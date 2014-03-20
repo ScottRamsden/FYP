@@ -32,7 +32,7 @@ foreach ($modules as $module) {
 
 </pre>
 <br/>
-<h3>Log Viewer [Logs reported in the previous minute]</h3>
+<h3>Log Viewer [Logs reported in the past week]</h3>
 <pre>
 <?php
 $errors = file_get_contents('error.log');
