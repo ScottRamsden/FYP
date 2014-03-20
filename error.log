@@ -1,0 +1,87 @@
+[Mon Mar 10 20:32:26 2014] [error] [client 192.168.1.101] script '/var/www/modaules.php' not found or unable to stat
+[Tue Mar 11 00:20:06 2014] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u7 configured -- resuming normal operations
+[Tue Mar 11 00:19:10 2014] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u7 configured -- resuming normal operations
+[Tue Mar 11 00:19:11 2014] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u7 configured -- resuming normal operations
+[Tue Mar 11 00:19:58 2014] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u7 configured -- resuming normal operations
+[Tue Mar 11 00:18:54 2014] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u7 configured -- resuming normal operations
+[Tue Mar 11 00:19:02 2014] [error] [client 192.168.1.84] File does not exist: /var/www/favicon.ico
+[Thu Mar 13 18:36:06 2014] [error] [client 192.168.1.84] PHP Warning:  log() expects parameter 1 to be double, string given in /var/www/theme/default/process.php on line 11, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:06 2014] [error] [client 192.168.1.84] PHP Warning:  fopen(/fyp/modules/disabled): failed to open stream: Permission denied in /var/www/theme/default/process.php on line 18, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:06 2014] [error] [client 192.168.1.84] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/theme/default/process.php on line 19, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:06 2014] [error] [client 192.168.1.84] PHP Warning:  file_put_contents(/fyp/modules/disabled): failed to open stream: Permission denied in /var/www/theme/default/process.php on line 21, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:06 2014] [error] [client 192.168.1.84] PHP Warning:  file_put_contents(/fyp/modules/enabled): failed to open stream: Permission denied in /var/www/theme/default/process.php on line 22, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:06 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined index: disableModule in /var/www/theme/default/process.php on line 32, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:06 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined index: disableModule in /var/www/theme/default/process.php on line 50, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:06 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined index: disableModule in /var/www/theme/default/process.php on line 50, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:19 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined index: submitted in /var/www/theme/default/configuration.php on line 6, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:19 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: update in /var/www/theme/default/configuration.php on line 16, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:19 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: update in /var/www/theme/default/configuration.php on line 20, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:19 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: username in /var/www/theme/default/configuration.php on line 34, referer: http://192.168.1.122/modules.php
+[Thu Mar 13 18:36:22 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined index: submitted in /var/www/theme/default/update.php on line 1, referer: http://192.168.1.122/configuration.php
+[Thu Mar 13 18:47:20 2014] [error] [client 192.168.1.84] PHP Parse error:  syntax error, unexpected '$error' (T_VARIABLE) in /var/www/theme/default/update.php on line 21, referer: http://192.168.1.122/update.php
+[Thu Mar 13 18:47:29 2014] [error] [client 192.168.1.84] PHP Parse error:  syntax error, unexpected '$error' (T_VARIABLE) in /var/www/theme/default/update.php on line 21, referer: http://192.168.1.122/update.php
+[Thu Mar 13 18:47:32 2014] [error] [client 192.168.1.84] PHP Parse error:  syntax error, unexpected '$error' (T_VARIABLE) in /var/www/theme/default/update.php on line 21, referer: http://192.168.1.122/update.php
+[Thu Mar 13 18:47:40 2014] [error] [client 192.168.1.84] PHP Parse error:  syntax error, unexpected '$error' (T_VARIABLE) in /var/www/theme/default/update.php on line 21, referer: http://192.168.1.122/update.php
+[Thu Mar 13 18:51:52 2014] [error] [client 192.168.1.84] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /var/www/functions/curl.php on line 3, referer: http://192.168.1.122/update.php
+[Thu Mar 13 18:52:13 2014] [error] [client 192.168.1.84] PHP Parse error:  syntax error, unexpected '$error' (T_VARIABLE) in /var/www/theme/default/update.php on line 21, referer: http://192.168.1.122/update.php
+[Thu Mar 13 18:52:54 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: curlResponse in /var/www/theme/default/update.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 18:52:54 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: validResponse in /var/www/theme/default/update.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 18:53:29 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: user in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 18:53:29 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: password in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 18:53:29 2014] [error] [client 192.168.1.84] PHP Fatal error:  Call to undefined function curl_init() in /var/www/functions/curl.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:00:10 2014] [notice] Graceful restart requested, doing restart
+[Thu Mar 13 19:00:10 2014] [error] (9)Bad file descriptor: apr_socket_accept: (client socket)
+[Thu Mar 13 19:00:10 2014] [error] (9)Bad file descriptor: apr_socket_accept: (client socket)
+[Thu Mar 13 19:00:10 2014] [error] (9)Bad file descriptor: apr_socket_accept: (client socket)
+[Thu Mar 13 19:00:10 2014] [error] (9)Bad file descriptor: apr_socket_accept: (client socket)
+[Thu Mar 13 19:00:10 2014] [error] (9)Bad file descriptor: apr_socket_accept: (client socket)
+[Thu Mar 13 19:00:10 2014] [error] (9)Bad file descriptor: apr_socket_accept: (client socket)
+[Thu Mar 13 19:00:10 2014] [error] (9)Bad file descriptor: apr_socket_accept: (client socket)
+[Thu Mar 13 19:00:10 2014] [error] (9)Bad file descriptor: apr_socket_accept: (client socket)
+[Thu Mar 13 19:00:10 2014] [error] (9)Bad file descriptor: apr_socket_accept: (client socket)
+apache2: apr_sockaddr_info_get() failed for fyp
+apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Thu Mar 13 19:00:23 2014] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u8 configured -- resuming normal operations
+[Thu Mar 13 19:00:59 2014] [notice] Graceful restart requested, doing restart
+apache2: apr_sockaddr_info_get() failed for fyp
+apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Thu Mar 13 19:01:09 2014] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u8 configured -- resuming normal operations
+[Thu Mar 13 19:04:04 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: user in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:04:04 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: password in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:04:04 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: validResponse in /var/www/theme/default/update.php on line 8, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:06:37 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: user in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:06:37 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: password in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:08:09 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: user in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:08:09 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: password in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:08:29 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: user in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:08:29 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: password in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:09:31 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: user in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:09:31 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: password in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:10:56 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: user in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:10:56 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: password in /var/www/theme/default/update.php on line 4, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:12:30 2014] [error] [client 192.168.1.84] PHP Parse error:  syntax error, unexpected ''username\\'],$_GET[\\'password\\' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in /var/www/theme/default/update.php on line 11, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:13:42 2014] [error] [client 192.168.1.84] PHP Parse error:  syntax error, unexpected ''username\\'],$_GET[\\'password\\' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in /var/www/theme/default/update.php on line 11, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:13:51 2014] [error] [client 192.168.1.84] PHP Parse error:  syntax error, unexpected ''username\\'],$_GET[\\'password\\' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in /var/www/theme/default/update.php on line 11, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:14:02 2014] [error] [client 192.168.1.84] PHP Parse error:  syntax error, unexpected ''username\\'],$_GET[\\'password\\' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in /var/www/theme/default/update.php on line 11, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:15:46 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined index: username in /var/www/theme/default/update.php on line 5, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:15:46 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined index: password in /var/www/theme/default/update.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:16:02 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined index: submitted in /var/www/theme/default/update.php on line 1, referer: http://192.168.1.122/configuration.php
+[Thu Mar 13 19:16:09 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined index: username in /var/www/theme/default/update.php on line 5, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:16:09 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined index: password in /var/www/theme/default/update.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:16:57 2014] [error] [client 192.168.1.84] PHP Warning:  log() expects parameter 1 to be double, string given in /var/www/functions/curl.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:18:24 2014] [error] [client 192.168.1.84] PHP Warning:  log() expects parameter 1 to be double, string given in /var/www/functions/curl.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:22:13 2014] [error] [client 192.168.1.84] PHP Warning:  log() expects parameter 1 to be double, string given in /var/www/functions/curl.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:22:14 2014] [error] [client 192.168.1.84] File does not exist: /var/www/favicon.ico
+[Thu Mar 13 19:25:28 2014] [error] [client 192.168.1.84] PHP Warning:  log() expects parameter 1 to be double, string given in /var/www/functions/curl.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:25:53 2014] [error] [client 192.168.1.84] PHP Warning:  log() expects parameter 1 to be double, string given in /var/www/functions/curl.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:36:09 2014] [error] [client 192.168.1.84] PHP Warning:  log() expects parameter 1 to be double, string given in /var/www/functions/curl.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:36:09 2014] [error] [client 192.168.1.84] File does not exist: /var/www/favicon.ico
+[Thu Mar 13 19:40:36 2014] [error] [client 192.168.1.84] PHP Warning:  log() expects parameter 1 to be double, string given in /var/www/functions/curl.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:42:55 2014] [error] [client 192.168.1.84] PHP Warning:  log() expects parameter 1 to be double, string given in /var/www/functions/curl.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:43:03 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined index: submitted in /var/www/theme/default/configuration.php on line 6, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:43:03 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: update in /var/www/theme/default/configuration.php on line 16, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:43:03 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: update in /var/www/theme/default/configuration.php on line 20, referer: http://192.168.1.122/update.php
+[Thu Mar 13 19:43:03 2014] [error] [client 192.168.1.84] PHP Notice:  Undefined variable: username in /var/www/theme/default/configuration.php on line 34, referer: http://192.168.1.122/update.php
+[Fri Mar 14 00:19:01 2014] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u8 configured -- resuming normal operations
+[Sat Mar 15 02:19:02 2014] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u8 configured -- resuming normal operations
+[Thu Mar 20 19:54:56 2014] [error] [client 192.168.1.84] File does not exist: /var/www/favicon.ico

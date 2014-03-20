@@ -13,7 +13,6 @@ $resp = curl_exec($curl);
 // Close request to clear up some resources
 curl_close($curl);
 
-// If new key required
 // Request new key with details
 if(strpos($resp,'outdated') || strpos($resp,'invalid:key')){
 // Get cURL resource
@@ -94,4 +93,5 @@ Password: <input type="password" name="password">
 </form>
 <br/>
 <hr/>
+
 <?php endif;?>
