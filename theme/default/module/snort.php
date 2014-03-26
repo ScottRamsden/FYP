@@ -28,8 +28,17 @@ foreach ($modules as $module) {
 <hr/>
 <br/>
 <h3>Configuration</h3>
-<pre>
-
+<pre style="text-align:right;">
+<form name="input" action="demo_form_action.asp" method="post">
+<textarea cols="103" rows="8" name="snortConfig">
+<?php
+$contents = file_get_contents('/etc/snort/snort.conf');
+echo $contents;
+?>
+</textarea>
+<input type="submit" value="Submit">
+</form>
+Updates will not take affect until a reboot
 </pre>
 <br/>
 <h3>Alert Viewer</h3>
