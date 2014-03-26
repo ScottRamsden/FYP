@@ -24,9 +24,9 @@ foreach ($modules as $module) {
 
 ?>
 
-<h3><?php echo $status; ?></h3>
+<h2>Nessus Control panel</h2>
 <hr/>
-<a id="trans">Nessus Control panel</a>
+<p>This module is not completed yet.</p>
 <script>
     document.getElementById('trans').href = 'http://' + window.location.origin + ':8081';
 </script>
