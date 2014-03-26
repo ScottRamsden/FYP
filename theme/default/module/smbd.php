@@ -28,7 +28,17 @@ foreach ($modules as $module) {
 <hr/>
 <br/>
 <h3>Configuration</h3>
-<pre>
-
+<pre style="text-align:right;">
+<form name="input" action="update.php" method="post">
+    <input type="hidden" name="file" value="samba"></input>
+    <textarea cols="103" rows="8" name="configData">
+        <?php
+        $contents = file_get_contents('/etc/samba/smb.conf');
+        echo $contents;
+        ?>
+    </textarea>
+    <input type="submit" value="Submit">
+</form>
+Updates will not take affect until a reboot
 </pre>
 <br/>
