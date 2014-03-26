@@ -4,8 +4,14 @@
 <?php
 $progress = 1;
 $app = $_POST['file'];
-$file = '/etc/'. $app .'/'. $app .'.backup.conf';
-$currentFile = '/etc/' . $app .'/' . $app . '.conf';
+if($app == 'samba'){
+    $file = '/etc/samba/smb.backup.conf';
+    $currentFile = '/etc/samba/smb.conf';
+}
+else{
+    $file = '/etc/'. $app .'/'. $app .'.backup.conf';
+    $currentFile = '/etc/' . $app .'/' . $app . '.conf';
+}
 // Open the file to get existing content
 $current = file_get_contents($currentFile);
 // Write the contents to the backup file
