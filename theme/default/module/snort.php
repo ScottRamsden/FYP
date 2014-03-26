@@ -29,8 +29,9 @@ foreach ($modules as $module) {
 <br/>
 <h3>Configuration</h3>
 <pre style="text-align:right;">
-<form name="input" action="demo_form_action.asp" method="post">
-<textarea cols="103" rows="8" name="snortConfig">
+<form name="input" action="update.php" method="post">
+<input type="hidden" name="file" value="snort"></input>
+<textarea cols="103" rows="8" name="configData">
 <?php
 $contents = file_get_contents('/etc/snort/snort.conf');
 echo $contents;
