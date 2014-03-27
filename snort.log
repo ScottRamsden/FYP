@@ -1,745 +1,384 @@
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:32:22.979048 :: -> ff02::1:ff3a:50c0
+03/27-08:53:07.754508 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:576
+Len: 548
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-08:53:09.406445 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:576
+Len: 548
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-09:15:34.372349 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:52734 IpLen:20 DgmLen:326
+Len: 298
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-09:15:36.032766 :: -> ff02::1:ff1a:1063
 IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:32:28.115926 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:0 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:32:30.212588 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:1 IpLen:20 DgmLen:340
-Len: 312
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:33:31.479483 2001:0:9d38:90d7:3880:6d3:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
-[Classification: Misc activity] [Priority: 3] 
-03/26-08:36:38.881650 192.168.1.122 -> 192.168.1.83
-ICMP TTL:64 TOS:0xC0 ID:13560 IpLen:20 DgmLen:84
-Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
-** ORIGINAL DATAGRAM DUMP:
-192.168.1.83:55807 -> 192.168.1.122:2054
-UDP TTL:128 TOS:0x0 ID:4473 IpLen:20 DgmLen:56
-Len: 28  Csum: 18499
-(28 more bytes of original packet)
-** END OF DUMP
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:37:14.858917 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25988 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:37:16.448836 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25989 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:37:19.390398 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25990 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:37:23.721008 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25991 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:37:24.927670 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25992 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:37:27.101352 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25993 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:37:31.759363 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25994 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:37:40.664182 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25995 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:37:48.937662 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25996 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:37:57.559423 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25997 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:38:07.700061 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25998 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:38:08.636933 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:25999 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:38:09.682423 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:26000 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:38:23.887584 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:44:44.032952 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:45:25.103585 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:0 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:45:25.339792 :: -> ff02::1:ff1b:a1cf
+03/27-09:15:36.032931 :: -> ff02::1:ff1a:1063
 IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:45:25.340457 :: -> ff02::1:ff1b:a1cf
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:45:30.121695 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:1 IpLen:20 DgmLen:328
+03/27-09:15:36.847140 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:255 TOS:0x0 ID:38485 IpLen:20 DgmLen:328
 Len: 300
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:45:30.315805 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:2 IpLen:20 DgmLen:369
-Len: 341
+03/27-09:15:37.689156 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:42826 IpLen:20 DgmLen:330
+Len: 302
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:45:34.321223 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:3 IpLen:20 DgmLen:369
-Len: 341
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:46:26.937742 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:361 IpLen:20 DgmLen:363
-Len: 335
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:46:27.345039 :: -> ff02::1:ff1b:a1cf
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:46:27.345231 :: -> ff02::1:ff1b:a1cf
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:51:06.822707 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-08:57:19.556678 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-09:03:16.562567 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-09:09:45.539693 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-09:16:18.920872 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-09:22:13.878984 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-09:28:36.973990 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-09:34:41.605094 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-09:40:55.865057 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-09:46:08.462307 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
-[Classification: Misc activity] [Priority: 3] 
-03/26-09:48:01.096102 192.168.1.122 -> 192.168.1.83
-ICMP TTL:64 TOS:0xC0 ID:13561 IpLen:20 DgmLen:84
-Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
-** ORIGINAL DATAGRAM DUMP:
-192.168.1.83:58922 -> 192.168.1.122:2054
-UDP TTL:128 TOS:0x0 ID:16773 IpLen:20 DgmLen:56
-Len: 28  Csum: 15384
-(28 more bytes of original packet)
-** END OF DUMP
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-09:52:25.709185 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-09:58:36.248063 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:04:14.956430 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:10:51.832485 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:17:03.809519 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:23:33.220680 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:29:38.392469 2001:0:5ef5:79fd:82d:1d31:a957:f44c -> ff02::1
-IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:31:41.417854 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:21418 IpLen:20 DgmLen:335
-Len: 307
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:31:41.822671 :: -> ff02::1:ffbb:9194
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:31:41.822679 :: -> ff02::1:ffbb:9194
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:32:06.961792 :: -> ff02::1:ff6f:fb12
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:32:06.961796 :: -> ff02::1:ff6f:fb12
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:32:07.286875 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:26002 IpLen:20 DgmLen:328
+03/27-09:15:42.285346 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:255 TOS:0x0 ID:26055 IpLen:20 DgmLen:328
 Len: 300
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:34:14.406741 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:19850 IpLen:20 DgmLen:334
+03/27-09:15:46.138151 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:255 TOS:0x0 ID:26844 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-09:15:46.258518 :: -> ff02::1:ff12:6135
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-09:15:46.258522 :: -> ff02::1:ff12:6135
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-10:55:28.782079 :: -> ff02::1:ff3a:50c0
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-10:55:38.411339 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:0 IpLen:20 DgmLen:334
 Len: 306
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:34:14.602881 :: -> ff02::1:ff3a:50c0
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+03/27-10:56:27.681616 2001:0:5ef5:79fb:34cc:923:a963:8ab8 -> ff02::1
+IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:34:19.709772 0.0.0.0:68 -> 255.255.255.255:67
+03/27-10:58:16.681683 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:64 TOS:0x10 ID:0 IpLen:20 DgmLen:328 DF
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-10:58:18.502247 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:64 TOS:0x10 ID:0 IpLen:20 DgmLen:339 DF
+Len: 311
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:402:7] ICMP Destination Unreachable Port Unreachable [**]
+[Classification: Misc activity] [Priority: 3] 
+03/27-10:59:50.723947 192.168.1.122 -> 192.168.1.83
+ICMP TTL:64 TOS:0xC0 ID:21136 IpLen:20 DgmLen:84
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+192.168.1.83:65505 -> 192.168.1.122:2054
+UDP TTL:128 TOS:0x0 ID:7776 IpLen:20 DgmLen:56
+Len: 28  Csum: 8801
+(28 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-11:02:04.985470 2001:0:5ef5:79fb:34cc:923:a963:8ab8 -> ff02::1
+IPV6-NONXT TTL:21 TOS:0x0 ID:0 IpLen:40 DgmLen:40
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-11:03:57.576523 0.0.0.0:68 -> 255.255.255.255:67
 UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:576
 Len: 548
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:34:20.414125 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:64 TOS:0x0 ID:54163 IpLen:20 DgmLen:576
-Len: 548
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:34:22.716793 0.0.0.0:68 -> 255.255.255.255:67
+03/27-11:03:59.485393 0.0.0.0:68 -> 255.255.255.255:67
 UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:576
 Len: 548
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:34:24.462965 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:64 TOS:0x0 ID:54164 IpLen:20 DgmLen:576
-Len: 548
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:00.738984 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:576
-Len: 548
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:03.744991 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:576
-Len: 548
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:06.752998 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:576
-Len: 548
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:29.767119 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:576
-Len: 548
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:31.598693 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:30138 IpLen:20 DgmLen:330
-Len: 302
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:32.421126 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:576
-Len: 548
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:32.872296 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:64 TOS:0x0 ID:54235 IpLen:20 DgmLen:576
-Len: 548
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:33.694320 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:64 TOS:0x0 ID:54236 IpLen:20 DgmLen:576
-Len: 548
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:37.948782 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:21427 IpLen:20 DgmLen:335
-Len: 307
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:38.306968 :: -> ff02::1:ffbb:9194
+03/27-12:49:21.445018 :: -> ff02::1:ff12:6135
 IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:38.307304 :: -> ff02::1:ffbb:9194
+03/27-12:49:21.445021 :: -> ff02::1:ff12:6135
 IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:39.620706 :: -> ff02::1:ff6f:fb12
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:39.620840 :: -> ff02::1:ff6f:fb12
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:40.439528 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:26007 IpLen:20 DgmLen:328
+03/27-12:49:22.364891 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:255 TOS:0x0 ID:26846 IpLen:20 DgmLen:328
 Len: 300
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:35:45.017122 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:44299 IpLen:20 DgmLen:326
-Len: 298
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:36:12.721595 :: -> ff02::16
-IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:36:12.721599 :: -> ff02::16
-IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:36:12.826044 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x10 ID:0 IpLen:20 DgmLen:328
+03/27-13:28:06.292954 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:255 TOS:0x0 ID:38488 IpLen:20 DgmLen:328
 Len: 300
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:36:13.561002 :: -> ff02::1:ff6a:a22e
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:36:13.561007 :: -> ff02::1:ff6a:a22e
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:36:13.839094 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:64 TOS:0x0 ID:38250 IpLen:20 DgmLen:343
-Len: 315
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:36:14.272479 :: -> ff02::16
-IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:36:14.272686 :: -> ff02::16
-IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:36:14.556081 :: -> ff02::1:ff32:6277
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:36:14.556267 :: -> ff02::1:ff32:6277
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:15.270208 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:64 TOS:0x0 ID:50217 IpLen:20 DgmLen:343
-Len: 315
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:15.305355 :: -> ff02::1:ffbb:9194
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:15.305571 :: -> ff02::1:ffbb:9194
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:15.602368 :: -> ff02::16
-IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:15.602517 :: -> ff02::16
-IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:15.696761 :: -> ff02::1:ff32:6277
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:15.696907 :: -> ff02::1:ff32:6277
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:15.766540 :: -> ff02::1:ff6f:fb12
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:15.766748 :: -> ff02::1:ff6f:fb12
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:16.234920 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:26012 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:18.721311 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:21429 IpLen:20 DgmLen:335
-Len: 307
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:19.404375 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:30616 IpLen:20 DgmLen:330
-Len: 302
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-10:37:19.619994 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:128 TOS:0x0 ID:44652 IpLen:20 DgmLen:326
-Len: 298
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-11:34:48.226633 :: -> ff02::1:ff1a:1063
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-11:34:48.226637 :: -> ff02::1:ff1a:1063
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-11:34:49.838762 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:38477 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-11:34:52.532469 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:38478 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-11:34:54.166837 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:38479 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-11:57:11.943874 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:26013 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-13:31:03.301113 :: -> ff02::16
-IPV6-ICMP TTL:1 TOS:0x0 ID:84017152 IpLen:40 DgmLen:96
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-13:31:03.301843 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:26014 IpLen:20 DgmLen:328
-Len: 300
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-13:31:03.302253 :: -> ff02::16
-IPV6-ICMP TTL:1 TOS:0x0 ID:84017152 IpLen:40 DgmLen:96
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-13:31:04.606738 :: -> ff02::1:ff6f:fb12
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-13:31:04.606950 :: -> ff02::1:ff6f:fb12
-IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
-[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
-
-[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
-[Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-13:35:51.260573 0.0.0.0:68 -> 255.255.255.255:67
+03/27-14:29:32.244974 0.0.0.0:68 -> 255.255.255.255:67
 UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:308
 Len: 280
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-13:35:54.270303 0.0.0.0:68 -> 255.255.255.255:67
+03/27-14:29:33.979926 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:316
+Len: 288
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-14:34:36.352295 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:255 TOS:0x0 ID:26104 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-14:34:37.131550 :: -> ff02::1:ff6f:fb12
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-14:34:37.131780 :: -> ff02::1:ff6f:fb12
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-14:34:37.404671 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:255 TOS:0x0 ID:26105 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-14:34:39.130400 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:255 TOS:0x0 ID:26106 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-14:46:05.327529 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:128 TOS:0x0 ID:31790 IpLen:20 DgmLen:335
+Len: 307
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-14:46:05.757974 :: -> ff02::1:ffbb:9194
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-14:46:05.758179 :: -> ff02::1:ffbb:9194
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-15:45:54.846225 0.0.0.0:68 -> 255.255.255.255:67
 UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:308
 Len: 280
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-13:35:54.280868 0.0.0.0:68 -> 255.255.255.255:67
+03/27-15:45:56.569416 0.0.0.0:68 -> 255.255.255.255:67
 UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:316
 Len: 288
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-13:35:57.958711 0.0.0.0:68 -> 255.255.255.255:67
+03/27-15:54:00.358868 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:64 TOS:0x0 ID:31973 IpLen:20 DgmLen:343
+Len: 315
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-15:54:00.672920 :: -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-15:54:00.672924 :: -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-15:54:01.051375 :: -> ff02::1:ff32:6277
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-15:54:01.051652 :: -> ff02::1:ff32:6277
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-16:21:54.257466 :: -> ff02::1:ff12:6135
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-16:21:54.257734 :: -> ff02::1:ff12:6135
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-16:21:54.455400 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:255 TOS:0x0 ID:26848 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-16:48:35.557446 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:308
+Len: 280
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-16:48:37.282508 0.0.0.0:68 -> 255.255.255.255:67
 UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:316
 Len: 288
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 
 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
 [Classification: Potentially Bad Traffic] [Priority: 2] 
-03/26-13:57:11.647523 0.0.0.0:68 -> 255.255.255.255:67
-UDP TTL:255 TOS:0x0 ID:26015 IpLen:20 DgmLen:328
+03/27-17:23:07.705816 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:576
+Len: 548
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-17:23:09.451545 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:576
+Len: 548
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-17:49:59.449845 :: -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:84017152 IpLen:40 DgmLen:96
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-17:49:59.449861 :: -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:84017152 IpLen:40 DgmLen:96
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-17:49:59.450053 :: -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:84017152 IpLen:40 DgmLen:96
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-17:49:59.450057 :: -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:84017152 IpLen:40 DgmLen:96
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-17:49:59.453542 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:255 TOS:0x0 ID:38489 IpLen:20 DgmLen:328
+Len: 300
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-17:50:00.482029 :: -> ff02::1:ff1a:1063
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-17:50:00.482034 :: -> ff02::1:ff1a:1063
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-19:58:04.562280 :: -> ff02::1:ff12:6135
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-19:58:04.562439 :: -> ff02::1:ff12:6135
+IPV6-ICMP TTL:255 TOS:0x0 ID:0 IpLen:40 DgmLen:64
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/27-19:58:04.815843 0.0.0.0:68 -> 255.255.255.255:67
+UDP TTL:255 TOS:0x0 ID:26850 IpLen:20 DgmLen:328
 Len: 300
 [Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
 

@@ -64,13 +64,27 @@ $data = $resp;
 }
 // Parse data into vars
 $data = explode("|",$data);
-// Push vars into the variables.php config
+// Push new vars into the variables.php config
 $newLines = 'newline';
-$fg = file_get_contents("/var/www/config/variables.php");
-var_dump($fg);
-$contents = $fg . $newLines;
-var_dump($contents);
+
+// Change this to return array of each line
+$file = fopen("/var/www/config/variables.php", "r");
+$i = 0;
+while (!feof($file)) {
+
+$line_of_text = fgets($file);
+$configArray = explode('\n', $line_of_text);
+fclose($file);
+}
+//
+
+var_dump($configArray);
+echo '<br/>';
+var_dump($newLines);
 exit;
+
+
+
 $fp = file_put_contents("",$contents);
 if($fp === false || $fg === false){
 die('Error Getting/Putting new variables');
