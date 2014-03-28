@@ -33,7 +33,7 @@ if (file_exists("config/config.php")) {
         <?php
         if (file_exists("config/config.php")) {
             // Include documentation file
-	   include 'theme/default/documentation/start.php';
+            include 'theme/default/documentation/start.php';
         } else {
             // Include Setup Process
             include 'theme/default/setup.php';

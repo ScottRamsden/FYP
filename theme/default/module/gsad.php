@@ -13,13 +13,14 @@
 <br/>
 <br/>
 <div style="text-align:center;margin:auto;width:315px;">
-<img src="theme\default\images\gsad_header.png"/>
+    <img src="theme\default\images\gsad_header.png"/>
 </div>
-<div style="text-align:center;margin:auto;width:315px;border-left:3px solid lightgrey;border-right:solid 3px lightgrey;">
-<br/><br/>
-<a style="color:green;" target="_blank" id="trans">Open GreenBone Security Admin</a>
-<br/><br/>
-<hr/>
+<div
+    style="text-align:center;margin:auto;width:315px;border-left:3px solid lightgrey;border-right:solid 3px lightgrey;">
+    <br/><br/>
+    <a style="color:green;" target="_blank" id="trans">Open GreenBone Security Admin</a>
+    <br/><br/>
+    <hr/>
 </div>
 <script>
     document.getElementById('trans').href = '' + window.location.origin + ':9392';

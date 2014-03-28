@@ -4,21 +4,20 @@
 <?php
 $progress = 1;
 $app = $_POST['file'];
-if($app == 'samba'){
+if ($app == 'samba') {
     $file = '/etc/samba/smb.backup.conf';
     $currentFile = '/etc/samba/smb.conf';
-}
-else{
-    $file = '/etc/'. $app .'/'. $app .'.backup.conf';
-    $currentFile = '/etc/' . $app .'/' . $app . '.conf';
+} else {
+    $file = '/etc/' . $app . '/' . $app . '.backup.conf';
+    $currentFile = '/etc/' . $app . '/' . $app . '.conf';
 }
 // Open the file to get existing content
 $current = file_get_contents($currentFile);
 // Write the contents to the backup file
 $o = file_put_contents($file, $current);
 
-if($current === false || $o === false){
-$error = 'Couldnt open '. $app .'.conf file';
+if ($current === false || $o === false) {
+    $error = 'Couldnt open ' . $app . '.conf file';
 }
 ?>
 
@@ -30,8 +29,8 @@ $error = 'Couldnt open '. $app .'.conf file';
 $progress = 2;
 $newConfig = $_POST['configData'];
 $o = file_put_contents($currentFile, $newConfig);
-if($o === false){
-$error = 'Couldnt update the current config, permissions?';
+if ($o === false) {
+    $error = 'Couldnt update the current config, permissions?';
 }
 ?>
 
@@ -42,6 +41,9 @@ $error = 'Couldnt update the current config, permissions?';
 <pre>
 
 <?php
-if(empty($error)){echo 'Completed, config file successfully updated';}
-else{echo "There was an error at step ".$progress."\nError - " . $error . "\n";}
+if (empty($error)) {
+    echo 'Completed, config file successfully updated';
+} else {
+    echo "There was an error at step " . $progress . "\nError - " . $error . "\n";
+}
 ?>

@@ -3,7 +3,7 @@
 function getSentEmails()
 {
 
-$items = array();
+    $items = array();
 
 $f = file_get_contents("/fyp/parsers/emailsSent");
 
