@@ -4,8 +4,8 @@
         die('Please check the username and password fields');
     }?>
 
-<?php
-die('aaa');
+    <?php
+    die('aaa');
 // Get cURL resource
     $curl = curl_init();
 // Set some options - we are passing in a useragent too here

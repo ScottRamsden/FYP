@@ -5,19 +5,19 @@ function getSentEmails()
 
     $items = array();
 
-$f = file_get_contents("/fyp/parsers/emailsSent");
+    $f = file_get_contents("/fyp/parsers/emailsSent");
 
-if($f != false){
+    if ($f != false) {
 
-$emails = explode("|",$f);
+        $emails = explode("|", $f);
 
-	foreach($emails as $email){
-	if(strlen($email) != 1){
-	$items[] = $email;
-	}
-	}
+        foreach ($emails as $email) {
+            if (strlen($email) != 1) {
+                $items[] = $email;
+            }
+        }
 
-}
+    }
 
     return $items;
 }
