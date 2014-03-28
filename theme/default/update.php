@@ -5,7 +5,6 @@
     }?>
 
     <?php
-    die('aaa');
 // Get cURL resource
     $curl = curl_init();
 // Set some options - we are passing in a useragent too here
@@ -21,6 +20,9 @@
 
 // Request new key with details
     if (strpos($resp, 'outdated') || strpos($resp, 'invalid:key')) {
+
+	echo 'Regenerated a 30 min key for user ' . $_POST['username'];
+
 // Get cURL resource
         $curl = curl_init();
 // Set some options - we are passing in a useragent too here
@@ -40,6 +42,7 @@
         session_start();
         $_SESSION['apiKey'] = $resp;
         $key = $resp;
+	echo ' - ' . $key;
     } else {
         var_dump($resp);
     }
@@ -58,35 +61,38 @@
     curl_close($curl);
 // If valid data
     if (strpos($resp, 'outdated') || strpos($resp, 'invalid:key')) {
-        echo 'There was a issue getting your account details';
+        echo '<p>There was a issue getting your account details</p>';
     } else {
         $data = $resp;
     }
 // Parse data into vars
     $data = explode("|", $data);
 // Push new vars into the variables.php config
-    $newLines = 'newline';
+
+	$newUsername = $data[1];
+	$newId = $data[0];
 
 // Change this to return array of each line
-    $file = fopen("/var/www/config/variables.php", "r");
-    $i = 0;
-    while (!feof($file)) {
-
-        $line_of_text = fgets($file);
-        $configArray = explode('\n', $line_of_text);
-        fclose($file);
-    }
+	$file = file_get_contents('/var/www/config/variables.php');
+	$configArray = explode("\n",$file);
 //
+	$count = 0;
+	foreach($configArray as $line){
+	if(strpos($line , "const USER_NAME = ") !== false){
+	$configArray[$count] = "const USER_NAME = '" . $newUsername . "';";
+	}
+	if(strpos($line , "const API_ID = ") !== false){
+	$configArray[$count] = "const API_ID = " . $newId . ";";
+	}
+	$count = $count +1;
+	}
 
-    var_dump($configArray);
-    echo '<br/>';
-    var_dump($newLines);
-    exit;
+	$contents = implode("\n", $configArray);
 
-
-    $fp = file_put_contents("", $contents);
+// Write new config to file
+    $fp = file_put_contents('/var/www/config/variables.php', $contents);
     if ($fp === false || $fg === false) {
-        die('Error Getting/Putting new variables');
+        die('<p>Error Getting/Putting new variables</p>');
     }
     ?>
 
@@ -96,12 +102,12 @@
         <h2>Account Information</h2>
         <hr/>
         <p><b>We have the following information about your account</b></p>
-        <p><?php echo $resp; ?></p>
-
         <p>
             <?php
-            var_dump($data);
-            echo $data[0];?>
+            echo '<p>Account ID - ' . $data[0] . '</p>';
+            echo '<p>Username - ' . $data[1] . '</p>';
+            echo '<p>Email - ' . $data[2] . '</p>';
+		?>
         </p>
         <br/>
         <hr/>
@@ -116,7 +122,7 @@
     <hr/>
     <pre>
 <p>ID : <?php echo API_ID; ?></p>
-<p>Username : <?php echo USERNAME; ?></p>
+<p>Username : <?php echo USER_NAME; ?></p>
 </pre>
     <h3>Update Info</h3>
     <hr/>

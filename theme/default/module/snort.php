@@ -45,7 +45,7 @@ Updates will not take affect until a reboot
 <h3>Alert Viewer</h3>
 <pre>
 <?php
-$errors = file_get_contents('/var/www/snort.log');
+$errors = file_get_contents('/fyp/parsers/snortAlerts');
 if ($errors == '') {
     echo 'Lucky you, there were no alerts!';
 } else {

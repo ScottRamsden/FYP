@@ -1,7 +1,7 @@
 <?php
 
 $currentID = API_ID;
-
+$username = USER_NAME;
 // Form Submitted
 if ($_POST['submitted']) {
     $update = 1;

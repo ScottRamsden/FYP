@@ -42,6 +42,11 @@ if ($o === false) {
 
 <?php
 if (empty($error)) {
+
+	// Push notice for config update
+
+	file_put_contents("/fyp/parsers/emailsSent","[" . date('Y-m-d H:i:s') . "] " . $app . " config updated|" , FILE_APPEND);
+
     echo 'Completed, config file successfully updated';
 } else {
     echo "There was an error at step " . $progress . "\nError - " . $error . "\n";

@@ -42,6 +42,7 @@ function getWarningCount()
 
     fclose($handle);
 
+
     $count = $count + $linecount - 1;
     return $count;
 

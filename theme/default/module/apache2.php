@@ -45,7 +45,7 @@ Updates will not take affect until a reboot
 <h3>Log Viewer [Logs reported in the past week]</h3>
 <pre>
 <?php
-$errors = file_get_contents('error.log');
+$errors = file_get_contents('/fyp/parsers/apacheAlerts');
 if ($errors == '') {
     echo 'Lucky you, there were no errors!';
 } else {
