@@ -6,7 +6,7 @@
     <br/>
 	<hr/>
     <h3 style="color:red;">Offline Services</h3>
-	<div style="text-align:center;">
+	<div style="text-align:left;">
     <?php
 	foreach($offlineServices as $service){
 	echo '<b>' . $service . ' </b>';
@@ -21,44 +21,32 @@
 
 <?php $snortAlerts = getSnortAlerts();?>
     <h3 style="color:orange;">Snort Alerts</h3>
-	<div style="text-align:center;">
+	<div style="text-align:left;">
     <?php
 	foreach($snortAlerts as $alert){
-	echo '<b>' . $service . ' </b>';
+	echo '<p><b>' . $alert . ' </b></p>';
 }?>
 </div>
 <br/>
-<?php if(!empty($snortAlerts)):?>
-<h4>Solution</h4>
-<p>Please restart your FYP Device, early hours are better</p>
-<?php endif;?>
 <hr/>
 <?php $apacheAlerts = getApacheAlerts();?>
     <h3 style="color:orange;">Apache Alerts</h3>
-	<div style="text-align:center;">
+	<div style="text-align:left;">
     <?php
 	foreach($apacheAlerts as $alert){
-	echo '<b>' . $service . ' </b>';
+	echo '<p><b>' . $alert . ' </b></p>';
 }?>
 </div>
 <br/>
-<?php if(!empty($apacheAlerts)):?>
-<h4>Solution</h4>
-<p>Please restart your FYP Device, early hours are better</p>
-<?php endif;?>
 <hr/>
 <?php $sentEmails = getSentEmails();?>
     <h3 style="color:blue;">Emails Sent</h3>
-	<div style="text-align:center;">
+	<div style="text-align:left;">
     <?php
 	foreach($sentEmails as $email){
-	echo '<b>' . $service . ' </b>';
+	echo '<p><b>' . $email . ' </b></p>';
 }?>
 </div>
 <br/>
-<?php if(!empty($sentEmails)):?>
-<h4>Solution</h4>
-<p>Please restart your FYP Device, early hours are better</p>
-<?php endif;?>
 <hr/>
 </div>
