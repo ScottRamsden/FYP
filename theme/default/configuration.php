@@ -10,7 +10,8 @@ if ($_POST['submitted']) {
 ?>
 <h2>FYP - Configuration</h2>
 <hr/>
-<p>Please read the <a href="/documentation.php">user guide</a> before making changes, if you dont know what your changing here leave it
+<p>Please read the <a href="/documentation.php">user guide</a> before making changes, if you dont know what your
+    changing here leave it
     alone.</p>
 <hr/>
 <?php if ($update == 1): ?>
@@ -23,15 +24,15 @@ if ($_POST['submitted']) {
 <br/>
 <div id="config-form" class="">
 
-	<a href="/update.php"><p>Get/Update Account Data</p></a>
+    <a href="/update.php"><p>Get/Update Account Data</p></a>
 
-	<br/>
+    <br/>
 
     <h4>Your Account</h4>
 
 <pre>
 <p><b>ID : </b><?php echo $currentID; ?></p>
-<p><b>Username : </b><?php echo $username;?></p>
+<p><b>Username : </b><?php echo $username; ?></p>
 </pre>
 
     </br>

@@ -30,7 +30,7 @@ foreach ($modules as $module) {
 <h3>Configuration</h3>
 <pre style="text-align:right;">
 <form name="input" action="update.php" method="post">
-<input type="hidden" name="file" value="apache2"></input>
+    <input type="hidden" name="file" value="apache2"></input>
     <textarea cols="103" rows="8" name="configData">
         <?php
         $contents = file_get_contents('/etc/apache2/apache2.conf');
@@ -46,10 +46,9 @@ Updates will not take affect until a reboot
 <pre>
 <?php
 $errors = file_get_contents('error.log');
-if($errors == ''){
-echo 'Lucky you, there were no errors!';
-}
-else{
-echo $errors;
+if ($errors == '') {
+    echo 'Lucky you, there were no errors!';
+} else {
+    echo $errors;
 }
 ?></pre>

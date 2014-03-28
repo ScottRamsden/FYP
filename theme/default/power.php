@@ -15,7 +15,8 @@
     <h2>Power Usage</h2>
     <hr/>
 
-    <p>These are estimates, to learn how they are generated please read the <a href="documentation.php">documentation</a>.</p>
+    <p>These are estimates, to learn how they are generated please read the <a
+            href="documentation.php">documentation</a>.</p>
     <br/>
     <table class="table table-bordered">
         <thead>

@@ -3,7 +3,7 @@
 function getSnortAlerts()
 {
 
-$items = array();
+    $items = array();
 
     return $items;
 
