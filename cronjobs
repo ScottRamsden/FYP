@@ -1,0 +1,23 @@
+# Run every 30 mins
+0-59/30 * * * * /fyp/cronscripts/alerter > /dev/null
+
+# Run every min
+0-59/1 * * * * /fyp/cronscripts/errorlog > /dev/null
+0-59/1 * * * * /fyp/cronscripts/snortlog > /dev/null
+
+# Run every min in a month?
+0-59/0 3 * * 0 /fyp/cronscripts/errorlogclear > /dev/null
+0-59/0 3 * * 0 /fyp/cronscripts/snortlogclear > /dev/null
+
+# Run every Hour
+0 * * * * /fyp/power/hourjob > /dev/null
+
+# Run every Day
+0 0 * * * /fyp/power/dayjob > /dev/null
+
+# Run every Week
+0 0 * * 0 /fyp/power/weekjob > /dev/null
+
+# Run every Month
+0 0 1 * 0 /fyp/power/monthjob > /dev/null
+
