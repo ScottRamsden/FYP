@@ -1,4 +1,9 @@
 <?php if($_POST['submitted']):?>
+
+<?php if(empty($_POST['username']) || empty($_POST['password'])){
+die('Please check the username and password fields');
+}?>
+
 <?php
 // Get cURL resource
 $curl = curl_init();
@@ -58,7 +63,32 @@ else{
 $data = $resp;
 }
 // Parse data into vars
-// Push vars into the variables.php config
+$data = explode("|",$data);
+// Push new vars into the variables.php config
+$newLines = 'newline';
+
+// Change this to return array of each line
+$file = fopen("/var/www/config/variables.php", "r");
+$i = 0;
+while (!feof($file)) {
+
+$line_of_text = fgets($file);
+$configArray = explode('\n', $line_of_text);
+fclose($file);
+}
+//
+
+var_dump($configArray);
+echo '<br/>';
+var_dump($newLines);
+exit;
+
+
+
+$fp = file_put_contents("",$contents);
+if($fp === false || $fg === false){
+die('Error Getting/Putting new variables');
+}
 ?>
 
 <?php
@@ -67,8 +97,13 @@ if($data):?>
 <h2>Account Information</h2>
 <hr/>
 <p><b>We have the following information about your account</b></p>
-<p><?php echo $data;?></p>
+<p><?php echo $resp;?></p>
 
+<p>
+<?php 
+var_dump($data);
+echo $data[0];?>
+</p>
 <br/><hr/>
 <h4 style="text-align:center;">Successfully updated your config file with up to date information</h4>
 <hr/>

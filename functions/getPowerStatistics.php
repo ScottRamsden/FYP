@@ -20,7 +20,7 @@ if ($fp) {
             $count = 2;
         }
     }
-    if ($today['joules'] > 5) {
+    if ($today['joules'] > 15267) {
         $today['status'] = 'Good';
     } else {
         $today['status'] = 'Bad';
@@ -47,7 +47,7 @@ if ($fp) {
             $count = 2;
         }
     }
-    if ($hour['joules'] > 5) {
+    if ($hour['joules'] > 558) {
         $hour['status'] = 'Good';
     } else {
         $hour['status'] = 'Bad';
@@ -74,7 +74,7 @@ if ($fp) {
             $count = 2;
         }
     }
-    if ($week['joules'] > 5) {
+    if ($week['joules'] > 106971) {
         $week['status'] = 'Good';
     } else {
         $week['status'] = 'Bad';
@@ -101,7 +101,7 @@ if ($fp) {
             $count = 2;
         }
     }
-    if ($month['joules'] > 5) {
+    if ($month['joules'] > 427887) {
         $month['status'] = 'Good';
     } else {
         $month['status'] = 'Bad';
@@ -128,7 +128,7 @@ if ($fp) {
             $count = 2;
         }
     }
-    if ($yesterday['joules'] > 5) {
+    if ($yesterday['joules'] > 15284) {
         $yesterday['status'] = 'Good';
     } else {
         $yesterday['status'] = 'Bad';
