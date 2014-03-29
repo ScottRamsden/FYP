@@ -1,5 +1,0 @@
-[Wed Mar 26 06:25:33 2014] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u8 configured -- resuming normal operations
-[Wed Mar 26 10:18:57 2014] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u8 configured -- resuming normal operations
-[Wed Mar 26 10:41:16 2014] [error] [client 192.168.1.84] File does not exist: /var/www/favicon.ico
-[Wed Mar 26 11:35:40 2014] [error] [client 192.168.1.84] File does not exist: /var/www/favicon.ico
-[Wed Mar 26 14:01:44 2014] [error] [client 192.168.1.101] File does not exist: /var/www/favicon.ico

@@ -1,7 +1,7 @@
 <div id="modulestats" class="homeblock" style="text-align:center;">
     <h2>Module Status</h2>
     <hr/>
-	<br/>
+    <br/>
     <?php
 
     foreach ($modules as $module) {

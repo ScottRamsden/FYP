@@ -45,7 +45,7 @@ foreach ($disabledLines as $dline) {
 
 const API_ID = 1;
 
-const USERNAME = 'scottramsdenold';
+const USER_NAME = 'scottramsden';
 
 const API_HOST = 'runforthe33.co.uk';
 $companyName = 'ScottRamsden.co.uk';

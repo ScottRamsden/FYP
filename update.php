@@ -32,13 +32,12 @@ if (file_exists("config/config.php")) {
     <div id="page">
         <?php
         if (file_exists("config/config.php")) {
-	if(empty($_POST['file'])){
-            // Include Modules Content
-            include 'theme/default/update.php';
-	}
-	else{
-		include 'theme/default/configUpdate.php';
-	}
+            if (empty($_POST['file'])) {
+                // Include Modules Content
+                include 'theme/default/update.php';
+            } else {
+                include 'theme/default/configUpdate.php';
+            }
         } else {
             // Include Setup Process
             include 'theme/default/setup.php';

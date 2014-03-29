@@ -30,14 +30,14 @@ foreach ($modules as $module) {
 <h3>Configuration</h3>
 <pre style="text-align:right;">
 <form name="input" action="update.php" method="post">
-<input type="hidden" name="file" value="snort"></input>
-<textarea cols="103" rows="8" name="configData">
-<?php
-$contents = file_get_contents('/etc/snort/snort.conf');
-echo $contents;
-?>
-</textarea>
-<input type="submit" value="Submit">
+    <input type="hidden" name="file" value="snort"></input>
+    <textarea cols="103" rows="8" name="configData">
+        <?php
+        $contents = file_get_contents('/etc/snort/snort.conf');
+        echo $contents;
+        ?>
+    </textarea>
+    <input type="submit" value="Submit">
 </form>
 Updates will not take affect until a reboot
 </pre>
@@ -45,12 +45,11 @@ Updates will not take affect until a reboot
 <h3>Alert Viewer</h3>
 <pre>
 <?php
-$errors = file_get_contents('/var/www/snort.log');
-if($errors == ''){
-echo 'Lucky you, there were no alerts!';
-}
-else{
-echo $errors;
+$errors = file_get_contents('/fyp/parsers/snortAlerts');
+if ($errors == '') {
+    echo 'Lucky you, there were no alerts!';
+} else {
+    echo $errors;
 }
 ?></pre>
 
