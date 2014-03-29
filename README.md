@@ -1,7 +1,7 @@
-FYP-back
+FYP / For Your Protection
 ========
 NOTES:
-Any zip files are temporary!
+Any zip files are temporary
 ========
 Summary
 ========
