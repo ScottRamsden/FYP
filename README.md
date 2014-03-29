@@ -1,8 +1,6 @@
 FYP / For Your Protection
 ========
-NOTES:
-Any zip files are temporary
-========
+
 Summary
 ========
 This is my final year project for university, it is a green security tool that will run on a raspberry pi. It uses a web interface to control the device and see statistics about what the device is currently doing and will alert if there is an issue.
