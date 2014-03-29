@@ -1,11 +1,11 @@
 <?php
 if ($_GET['setupfinished'] == 1) {
 
-    $configFile = "config/config.php";
-    $createConfFile = fopen($configFile, 'w') or die('Please Contact scott@scottramsden.co.uk');
+    $configFile = "/var/www/live/fyp/config/config.php";
+    file_put_contents($configFile, 'configgg');
 
     $variablesFile = "config/variables.php";
-    $createVarFile = fopen($variablesFile, 'w') or die('');
+    file_put_contents($variablesFile, 'configggg');
 
     echo '<p id="setupfinished">Setting up FYP</p>';
 

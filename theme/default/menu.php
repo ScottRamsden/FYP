@@ -1,8 +1,9 @@
 <?php
 $items = array(
+    "Status",
     "Modules",
     "Configuration",
-    "Documentation",
+    "Documentation"
 );?>
 <div id="navcontainer">
     <ul id="navlist">
