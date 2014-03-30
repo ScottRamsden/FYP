@@ -1,3 +1,10 @@
+## Every boot
+@reboot /fyp/boot.sh > /dev/null
+@reboot /bin/sh gsad > /dev/null
+@reboot /bin/sh openvassd > /dev/null
+@reboot /bin/sh openvasmd -p 9390 -a 127.0.0.1 > /dev/null
+@reboot /bin/sh openvassa > /dev/null
+
 # Run every 30 mins
 0-59/30 * * * * /fyp/cronscripts/alerter > /dev/null
 
@@ -14,12 +21,13 @@
 
 # Run every Day
 0 0 * * * /fyp/power/dayjob.sh > /dev/null
+0 0 * * * /fyp/parsers/emailsSent.sh
 
 # Run every Week
-0 0 * * 0 /fyp/power/weekjob.sh > /dev/null
+0 0 * * 0 /fyp/power/weeklyjob.sh > /dev/null
 
 # Run every Month
-0 0 1 * 0 /fyp/power/monthjob.sh > /dev/null
-0 0 1 * 0 /fyp/parsers/snortAlerts.php > /dev/null
-0 0 1 * 0 /fyp/parser/apacheAlerts.php > /dev/null
+0 0 1 * 0 /fyp/power/monthlyjob.sh > /dev/null
+0 0 1 * 0 php /fyp/parsers/snortAlerts.php > /dev/null
+0 0 1 * 0 php /fyp/parsers/apacheAlerts.php > /dev/null
 
