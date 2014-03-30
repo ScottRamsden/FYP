@@ -5,8 +5,9 @@ $enabled = explode("\n", file_get_contents('/fyp/modules/enabled'));
 $disabled = explode("\n", file_get_contents('/fyp/modules/disabled'));
 $count = 0;
 if ($_GET['enableModule']) {
-    $_GET['enableModule'] = str_replace("#", "", $_GET['enableModule']);
+
     foreach ($disabled as $item) {
+	$item = str_replace("#", "", $item);
         if ($item == $_GET['enableModule']) {
             log('Attempting to enable ' . $item);
 
