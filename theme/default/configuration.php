@@ -10,32 +10,41 @@ if ($_POST['submitted']) {
 ?>
 <h2>FYP - Configuration</h2>
 <hr/>
-<p>Please read the <a href="/documentation.php">user guide</a> before making changes, if you dont know what your
-    changing here leave it
-    alone.</p>
+<p style="text-align: center;">Please read the <a href="/documentation.php">user guide</a> before making changes, changes are irreversible.</p>
 <hr/>
 <?php if ($update == 1): ?>
-    <p class="text-success">Sucessfully Update your Configuration</p>
+    <p style="text-align: center;" class="text-success">Successfully Update your Configuration</p>
 <?php endif; ?>
 
 <?php if ($update == 2): ?>
-    <p class="text-danger">There was a problem, please contact your support team.</p>
+    <p style="text-align: center;" class="text-danger">There was a problem, please contact your support team.</p>
 <?php endif; ?>
 <br/>
-<div id="config-form" class="">
-
-    <a href="/update.php"><p>Get/Update Account Data</p></a>
-
-    <br/>
-
-    <h4>Your Account</h4>
+<div id="config-form">
 
 <pre>
-<p><b>ID : </b><?php echo $currentID; ?></p>
-<p><b>Username : </b><?php echo $username; ?></p>
+    <a href="/update.php"><p style="text-align: center;">Get/Update Account Data</p></a>
+    <br/>
 </pre>
 
-    </br>
+    <br/>
+    <hr/>
+    <br/>
+
+    <h4>Account Details</h4>
+    <br/>
+
+<pre>
+<b>ID : </b><?php echo $currentID; ?>
+<b>Username : </b><?php echo $username; ?>
+</pre>
+
+    <br/>
+    <hr/>
+    <br/>
+
+    <h4>Site Configuration</h4>
+    <div id="siteConfig" style="text-align: left;">
     <form action="" method="post" class="form-horizontal" role="form">
         <input type="hidden" name="submitted" value="1"/>
 
@@ -59,4 +68,5 @@ if ($_POST['submitted']) {
             </div>
         </div>
     </form>
+    </div>
 </div>
