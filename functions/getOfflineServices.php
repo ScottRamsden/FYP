@@ -14,5 +14,3 @@ function getOfflineServices()
     return $items;
 
 }
-
-?>

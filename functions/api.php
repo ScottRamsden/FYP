@@ -58,8 +58,6 @@ function getNewKey($user, $password)
 
     var_dump($output);
     die();
-
-    return $output;
 }
 
 function checkApiKey()

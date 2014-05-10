@@ -34,7 +34,7 @@ $modules =
 
         <div id="start">
             <div class="jumbotron">
-                <h1 style="border-bottom:solid 1px #999;padding-bottom:10px;margin-top:0px;margin-bottom:20px;">Setup
+                <h1 style="border-bottom:solid 1px #999;padding-bottom:10px;margin-top:0;margin-bottom:20px;">Setup
                     Process!</h1>
 
                 <p>This is the start of the setup process, press the button below to start the setup.</p>
@@ -58,7 +58,7 @@ $modules =
 
         <div id="step1">
             <div class="jumbotron">
-                <h1 style="border-bottom:solid 1px #999;padding-bottom:10px;margin-top:0px;margin-bottom:20px;">Step
+                <h1 style="border-bottom:solid 1px #999;padding-bottom:10px;margin-top:0;margin-bottom:20px;">Step
                     1</h1>
                 <h4>Select the modules you want to use on your device</h4>
                 <?php foreach ($modules as $module): ?>
@@ -76,7 +76,7 @@ $modules =
         <div id="step2">
 
             <div class="jumbotron">
-                <h1 style="border-bottom:solid 1px #999;padding-bottom:10px;margin-top:0px;margin-bottom:20px;">Step
+                <h1 style="border-bottom:solid 1px #999;padding-bottom:10px;margin-top:0;margin-bottom:20px;">Step
                     2</h1>
                 <h4>Accept the Terms and Conditions</h4>
 
@@ -93,7 +93,7 @@ $modules =
         <div id="setupfinish">
 
             <div class="jumbotron">
-                <h1 style="border-bottom:solid 1px #999;padding-bottom:10px;margin-top:0px;margin-bottom:20px;">Setup
+                <h1 style="border-bottom:solid 1px #999;padding-bottom:10px;margin-top:0;margin-bottom:20px;">Setup
                     Finalize</h1>
 
                 <input type="submit" value="Complete Setup">

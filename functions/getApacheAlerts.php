@@ -20,5 +20,3 @@ function getApacheAlerts()
     return $items;
 
 }
-
-?>

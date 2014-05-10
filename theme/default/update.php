@@ -4,7 +4,10 @@
         die('Please check the username and password fields');
     }?>
 
-    <?php
+<?php
+
+    $key = '';
+
 // Get cURL resource
     $curl = curl_init();
 // Set some options - we are passing in a useragent too here
@@ -21,7 +24,7 @@
 // Request new key with details
     if (strpos($resp, 'outdated') || strpos($resp, 'invalid:key')) {
 
-	echo 'Regenerated a 30 min key for user ' . $_POST['username'];
+        echo 'Regenerated a 30 min key for user ' . $_POST['username'];
 
 // Get cURL resource
         $curl = curl_init();
@@ -42,7 +45,7 @@
         session_start();
         $_SESSION['apiKey'] = $resp;
         $key = $resp;
-	echo ' - ' . $key;
+        echo ' - ' . $key;
     } else {
         var_dump($resp);
     }
@@ -62,6 +65,7 @@
 // If valid data
     if (strpos($resp, 'outdated') || strpos($resp, 'invalid:key')) {
         echo '<p>There was a issue getting your account details</p>';
+        exit;
     } else {
         $data = $resp;
     }
@@ -69,29 +73,29 @@
     $data = explode("|", $data);
 // Push new vars into the variables.php config
 
-	$newUsername = $data[1];
-	$newId = $data[0];
+    $newUsername = $data[1];
+    $newId = $data[0];
 
 // Change this to return array of each line
-	$file = file_get_contents('/var/www/config/variables.php');
-	$configArray = explode("\n",$file);
+    $file = file_get_contents('/var/www/config/variables.php');
+    $configArray = explode("\n", $file);
 //
-	$count = 0;
-	foreach($configArray as $line){
-	if(strpos($line , "const USER_NAME = ") !== false){
-	$configArray[$count] = "const USER_NAME = '" . $newUsername . "';";
-	}
-	if(strpos($line , "const API_ID = ") !== false){
-	$configArray[$count] = "const API_ID = " . $newId . ";";
-	}
-	$count = $count +1;
-	}
+    $count = 0;
+    foreach ($configArray as $line) {
+        if (strpos($line, "const USER_NAME = ") !== false) {
+            $configArray[$count] = "const USER_NAME = '" . $newUsername . "';";
+        }
+        if (strpos($line, "const API_ID = ") !== false) {
+            $configArray[$count] = "const API_ID = " . $newId . ";";
+        }
+        $count = $count + 1;
+    }
 
-	$contents = implode("\n", $configArray);
+    $contents = implode("\n", $configArray);
 
 // Write new config to file
     $fp = file_put_contents('/var/www/config/variables.php', $contents);
-    if ($fp === false || $fg === false) {
+    if ($fp === false) {
         die('<p>Error Getting/Putting new variables</p>');
     }
     ?>
@@ -107,7 +111,7 @@
             echo '<p>Account ID - ' . $data[0] . '</p>';
             echo '<p>Username - ' . $data[1] . '</p>';
             echo '<p>Email - ' . $data[2] . '</p>';
-		?>
+            ?>
         </p>
         <br/>
         <hr/>

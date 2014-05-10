@@ -21,5 +21,3 @@ function getSnortAlerts()
     return $items;
 
 }
-
-?>

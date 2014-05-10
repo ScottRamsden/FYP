@@ -9,4 +9,3 @@ include 'functions/getPowerStatistics.php';
 include 'functions/api.php';
 include 'functions/curl.php';
 
-?>

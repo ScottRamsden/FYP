@@ -21,5 +21,3 @@ function getSentEmails()
 
     return $items;
 }
-
-?>

@@ -4,7 +4,7 @@ body html {
 
 body {
     background-color: #eee !important;
-    font-family: Courier New;
+    font-family: "Courier New", Courier, monospace;
 }
 
 hr {
@@ -24,10 +24,6 @@ hr {
     margin-bottom: 50px;
     background-color: lightgrey;
     width: 100%;
-}
-
-#menu {
-
 }
 
 #menu ul {
@@ -103,7 +99,6 @@ input {
     height: 0;
     width: 0;
     position: absolute;
-    pointer-events: none;
 }
 
 .arrow_box:after {

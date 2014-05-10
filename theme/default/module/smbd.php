@@ -30,7 +30,7 @@ foreach ($modules as $module) {
 <h3>Configuration</h3>
 <pre style="text-align:right;">
 <form name="input" action="update.php" method="post">
-    <input type="hidden" name="file" value="samba"></input>
+    <input type="hidden" name="file" value="samba"/>
     <textarea cols="103" rows="8" name="configData">
         <?php
         $contents = file_get_contents('/etc/samba/smb.conf');

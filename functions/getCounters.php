@@ -2,10 +2,7 @@
 
 function getFatalCount()
 {
-
-    $count = 0;
-
-// Check Services
+    // Check Services
     $output = shell_exec('python /fyp/checks/servicechecker.py');
     $output = explode("#", $output);
 
@@ -24,7 +21,7 @@ function getWarningCount()
     $linecount = 0;
     $handle = fopen($file, "r");
     while (!feof($handle)) {
-        $line = fgets($handle);
+        fgets($handle);
         $linecount++;
     }
 
@@ -36,7 +33,7 @@ function getWarningCount()
     $linecount = 0;
     $handle = fopen($file, "r");
     while (!feof($handle)) {
-        $line = fgets($handle);
+        fgets($handle);
         $linecount++;
     }
 
@@ -57,7 +54,7 @@ function getNoticeCount()
     $linecount = 0;
     $handle = fopen($file, "r");
     while (!feof($handle)) {
-        $line = fgets($handle);
+        fgets($handle);
         $linecount++;
     }
 
@@ -68,5 +65,3 @@ function getNoticeCount()
     return $count;
 
 }
-
-?>
