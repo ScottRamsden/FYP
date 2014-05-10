@@ -23,8 +23,7 @@ if ($_POST['submitted']) {
 <div id="config-form">
 
 <pre>
-    <a href="/update.php"><p style="text-align: center;">Get/Update Account Data</p></a>
-    <br/>
+    <a href="/update.php"><p style="font-size:14px;text-align: center;">Get/Update Account Data</p></a>
 </pre>
 
     <br/>
@@ -36,6 +35,7 @@ if ($_POST['submitted']) {
 
 <pre>
 <b>ID : </b><?php echo $currentID; ?>
+    <br/>
 <b>Username : </b><?php echo $username; ?>
 </pre>
 
@@ -45,6 +45,7 @@ if ($_POST['submitted']) {
 
     <h4>Site Configuration</h4>
     <div id="siteConfig" style="text-align: left;">
+        <pre>
     <form action="" method="post" class="form-horizontal" role="form">
         <input type="hidden" name="submitted" value="1"/>
 
@@ -68,5 +69,6 @@ if ($_POST['submitted']) {
             </div>
         </div>
     </form>
+            </pre>
     </div>
 </div>
