@@ -23,7 +23,7 @@ if ($_POST['submitted']) {
 <div id="config-form">
 
 <pre>
-    <a href="/update.php"><p style="font-size:14px;text-align: center;">Get/Update Account Data</p></a>
+    <a href="/update.php"><p style="font-size:30px;font-weight: bold;text-align: center;">Get/Update Account Data</p></a>
 </pre>
 
     <br/>
@@ -46,29 +46,17 @@ if ($_POST['submitted']) {
     <h4>Site Configuration</h4>
     <div id="siteConfig" style="text-align: left;">
         <pre>
-    <form action="" method="post" class="form-horizontal" role="form">
-        <input type="hidden" name="submitted" value="1"/>
+            <form action="" method="post" class="form-horizontal">
+                <input type="hidden" name="submitted" value="1"/>
 
-        <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">Company Name</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">Company Name</label>
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="<?php echo $companyName; ?>">
 
-            <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="<?php echo $companyName; ?>">
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="inputPassword3" class="col-sm-2 control-label">Footer Text</label>
+                    <label for="inputPassword3" class="col-sm-2 control-label">Footer Text</label>
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="<?php echo $footer; ?>">
 
-            <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword3" placeholder="<?php echo $footer; ?>">
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Save Changes</button>
-            </div>
-        </div>
-    </form>
-            </pre>
+                    <button type="submit" class="btn btn-default">Save Changes</button>
+            </form>
+        </pre>
     </div>
 </div>
