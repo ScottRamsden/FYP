@@ -12,6 +12,10 @@ hr {
     margin-top: 10px !important;
 }
 
+label{
+    width:100%;
+}
+
 #container {
     width: 800px;
     margin: auto;
