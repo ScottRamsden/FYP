@@ -21,5 +21,3 @@ function curlRequest($request, $username, $password)
     return $resp;
 
 }
-
-?>

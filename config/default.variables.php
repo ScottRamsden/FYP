@@ -7,4 +7,3 @@
 
 $companyName = 'For Your Protection';
 $footer = 'For Your Protection - Setup';
-?>
